@@ -1,20 +1,29 @@
 * {
   font-family: Georgia, "Times New Roman", sans-serif;
 }
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;  
+}
 
 .homepage {
-    background-color: wheat;
+  background-color: wheat;
 }
 
 .recipe {
-    background-color: rgba(245, 222, 179, 0.623);
+  background-color: rgba(245, 222, 179, 0.623);
 }
 
 .description {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 1em;
+  border: 3px dashed black;
+  
 }
 
+
 ul li {
-    font-family: "Brush Script MT";
-    font-size: x-large;
+  font-family: "Brush Script MT";
+  font-size: x-large;
 }
